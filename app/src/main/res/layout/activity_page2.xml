@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2">
+
+    <Button
+        android:id="@+id/nextToPage3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <TextView
+        android:id="@+id/page2Question3Header"
+        android:layout_width="319dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/_3_choose_the_purpose_s_of_your_most_recent_travel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/businessCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/business"
+        app:layout_constraintStart_toStartOf="@+id/page2Question3Header"
+        app:layout_constraintTop_toBottomOf="@+id/page2Question3Header" />
+
+    <CheckBox
+        android:id="@+id/relaxationCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relaxation"
+        app:layout_constraintStart_toStartOf="@+id/businessCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/businessCheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkboxMedical"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/medical_reasons"
+        app:layout_constraintStart_toStartOf="@+id/relaxationCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/relaxationCheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkboxFamily"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/family_reunification"
+        app:layout_constraintStart_toStartOf="@+id/checkboxMedical"
+        app:layout_constraintTop_toBottomOf="@+id/checkboxMedical" />
+
+    <CheckBox
+        android:id="@+id/checkboxOther"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/others"
+        app:layout_constraintStart_toStartOf="@+id/checkboxFamily"
+        app:layout_constraintTop_toBottomOf="@+id/checkboxFamily" />
+
+    <TextView
+        android:id="@+id/travelRatingHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/_4_how_would_you_rate_your_most_recent_travel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkboxOther" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/_4_how_would_you_rate_your_most_recent_travel"
+        app:layout_constraintStart_toStartOf="@+id/travelRatingHeaderText"
+        app:layout_constraintTop_toBottomOf="@+id/travelRatingHeaderText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

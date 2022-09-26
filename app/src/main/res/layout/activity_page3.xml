@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page3">
+
+    <TextView
+        android:id="@+id/summaryTextHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/summary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="120dp"
+
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ageRangeSummaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/placeholder"
+        app:layout_constraintStart_toStartOf="@+id/countrySummaryText"
+        app:layout_constraintTop_toBottomOf="@+id/countrySummaryText" />
+
+    <TextView
+        android:id="@+id/countrySummaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="73dp"
+        android:text="@string/country_placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/summaryTextHeader" />
+
+    <TextView
+        android:id="@+id/travelPurposeSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/travel_purpose_placeholder"
+        app:layout_constraintStart_toStartOf="@+id/ageRangeSummaryText"
+        app:layout_constraintTop_toBottomOf="@+id/ageRangeSummaryText" />
+
+    <TextView
+        android:id="@+id/travelRatingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="@string/travelratingtest"
+        app:layout_constraintStart_toStartOf="@+id/travelPurposeSummary"
+        app:layout_constraintTop_toBottomOf="@+id/travelPurposeSummary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

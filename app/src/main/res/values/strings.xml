@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="smart_travel_survey">Smart-Travel Survey</string>
+    <string name="please_enter_the_code">Please enter the code</string>
+    <string name="button">Start</string>
+    <string name="_1_choose_your_nationality">1. Choose your nationality</string>
+    <string name="_2_choose_your_age_range">2. Choose your age range:</string>
+    <string name="under_18">Under 18</string>
+    <string name="_18_30">18 - 30</string>
+    <string name="_31_50">31 - 50</string>
+    <string name="_51_65">51 - 65</string>
+    <string name="above_65">Above 65</string>
+    <string name="thank_you_for_your_participation">Thank you for your participation!</string>
+    <string name="others">Others</string>
+    <string name="_4_how_would_you_rate_your_most_recent_travel">4. How would you rate your most recent travel:</string>
+    <string name="family_reunification">Family reunification</string>
+    <string name="medical_reasons">Medical Reasons</string>
+    <string name="relaxation">Relaxation</string>
+    <string name="business">Business</string>
+    <string name="_3_choose_the_purpose_s_of_your_most_recent_travel">3). Choose the purpose(s) of your most recent travel:</string>
+    <string name="next">NEXT</string>
+    <string name="summary">Summary</string>
+    <string name="country_placeholder">country placeholder</string>
+    <string name="submit">SUBMIT</string>
+    <string name="travel_purpose_placeholder">travel purpose placeholder</string>
+    <string name="placeholder">placeholder</string>
+    <string name="travelratingtest">travelRatingTest</string>
+</resources>
